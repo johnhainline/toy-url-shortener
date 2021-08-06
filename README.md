@@ -1,6 +1,8 @@
-# To run
-This app uses `stable`.
+# Description
+This is a toy URL shortener application written in Rust (using Rocket).
 
+This app uses Rust's `stable` build.
+# To run
 `cargo run`
 
 ## Testing (Happy Path)
@@ -29,3 +31,4 @@ echo $SHORT
 
 ### Use Nonsense URL
 `curl -s --location --request GET 'http://localhost:8000/never-added'`
+
